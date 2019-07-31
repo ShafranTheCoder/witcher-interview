@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/dist/css/main.min.css" />
-  </head>
 
-  <body>
-    <div class="background-container">
-      <section class="content">
-        <div class="hero-block">
-          <ul id="scene">
-            <li class="layer" id="hero" data-depth=".2">
-              <img class="hero-img" src="/dist/img/witcher.png" alt="witcher" />
-            </li>
-            <li class="layer" id="front" data-depth=".3">
-              <img class="sparks-front" src="/dist/img/sparks_front.png" alt="sparks_front" />
-            </li>
-            <li class="layer" id="back" data-depth="-.3">
-              <img class="sparks-back" src="/dist/img/sparks_back.png" alt="sparks_back" />
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/dist/css/main.min.css" />
+</head>
 
-        <div id="infoBlock" class="info-block layer" data-depth="0.5">
-          <h1 class="info-block__percentage">300%</h1>
-          <h3 class="info-block__caption">Welcome Bonus</h3>
-          <div class="tooltip">
-            <div id="refferalCode" class="info-block__refferal" data-depth="-0.2">
-              <span class="info-block__code">WITCHER</span>
-              <span class="info-block__action">Copy Code</span>
-              <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-              <input id="cb" type="text" hidden />
-            </div>
-          </div>
-          <div class="button">
-            <button class="btn">Play Now</button>
+<body>
+  <div class="background-container">
+    <section class="content">
+      <div class="hero-block">
+        <ul id="scene">
+          <li class="layer" id="hero" data-depth=".2">
+            <img class="hero-img" src="/dist/img/witcher.png" alt="witcher" />
+          </li>
+          <li class="layer" id="front" data-depth=".3">
+            <img class="sparks-front" src="/dist/img/sparks_front.png" alt="sparks_front" />
+          </li>
+          <li class="layer" id="back" data-depth="-.3">
+            <img class="sparks-back" src="/dist/img/sparks_back.png" alt="sparks_back" />
+          </li>
+        </ul>
+      </div>
+
+      <div id="infoBlock" class="info-block">
+        <h1 class="info-block__percentage">300%</h1>
+        <h3 class="info-block__caption">Welcome Bonus</h3>
+        <div class="tooltip">
+          <div id="refferalCode" class="info-block__refferal" data-depth="-0.2">
+            <span class="info-block__code">WITCHER</span>
+            <span class="info-block__action">Copy Code</span>
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            <input id="cb" type="text" hidden />
           </div>
         </div>
-      </section>
-      <section class="footer">
-        <div class="footer-wrapper">
-          <div class="footer__logo">
-            <img src="/dist/img/logo.png" alt="" />
-          </div>
-          <p class="footer__copyright">*Terms and Conditions Apply</p>
+        <div class="button">
+          <button class="btn">Play Now</button>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-wrapper">
+        <div class="footer__logo">
+          <img src="/dist/img/logo.png" alt="" />
+        </div>
+        <p class="footer__copyright">*Terms and Conditions Apply</p>
+      </div>
+    </section>
+  </div>
 
-    <script src="/dist/js/parallax.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="dist/js/main.js"></script>
-  </body>
+  <script src="/dist/js/parallax.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="dist/js/main.js"></script>
+</body>
+
 </html>

@@ -26,5 +26,3 @@ refferelDiv.addEventListener('mouseout', function () {
 
 let scene = document.getElementById('scene');
 let parallax = new Parallax(scene);
-let scene2 = document.getElementById('infoBlock');
-let parallax2 = new Parallax(scene2);
